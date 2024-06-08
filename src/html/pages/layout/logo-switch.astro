@@ -8,13 +8,14 @@ import { convertPathToHtml } from "../../../utils/index.js";
 const title = "AdminLTE 4 | Sidebar Mini";
 const path = "../../../dist";
 const htmlPath = convertPathToHtml(path);
+const isRtl = true;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <!--begin::Head-->
   <head>
-    <Head title={title} path={path} />
+    <Head title={title} path={path} isRtl={isRtl} />
   </head>
   <!--end::Head-->
   <!--begin::Body-->
